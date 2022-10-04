@@ -2,6 +2,7 @@ import "./main.scss";
 // import { ANKETA } from "./components/ANKETA/ANKETA";
 import { treeSum } from "./components/TREESUM/treeSum";
 import { arrayClone } from "./components/ARRAYCLONE/arrayClone";
+import { arrayToString } from "./components/ARRAYTOSTRING/arrayToString";
 
 const root = document.querySelector("#root");
 
@@ -12,3 +13,4 @@ console.log("Helloasda");
 // root.insertAdjacentHTML("beforeend", ANKETA());
 root.insertAdjacentHTML("beforeend", treeSum());
 root.insertAdjacentHTML("beforeend", arrayClone());
+root.insertAdjacentHTML("beforeend", arrayToString());
