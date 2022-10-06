@@ -16,6 +16,6 @@ export const arrayToString = () => {
   console.log(str1);
   console.log(str2);
 
-  document.writeln(str1); // "Капуста, Репа, Редиска, Морковка"
-  document.writeln(str2); // "Капуста, Репа, Редиска, Морковка
+  // document.writeln(str1); // "Капуста, Репа, Редиска, Морковка"
+  // document.writeln(str2); // "Капуста, Репа, Редиска, Морковка
 };

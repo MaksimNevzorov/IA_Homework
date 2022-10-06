@@ -4,6 +4,5 @@ export const arrayClone = () => {
     return arr.splice(0);
   };
 
-  let arr1 = arrayClone(vegetables);
-  console.log(arr1);
+  console.log(arrayClone(vegetables));
 };
