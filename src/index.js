@@ -5,6 +5,7 @@ import { treeSum } from "./components/TREESUM/treeSum";
 import { arrayToString } from "./components/ARRAYTOSTRING/arrayToString";
 import { colonOdd } from "./components/COLONODD/colonOdd";
 import { chengeRegistor } from "./components/CHANGRREGISTOR/changeRegistor";
+import { removeDuplicates } from "./components/REMOVEDUPLICATES/removeDuplicates";
 
 const root = document.querySelector("#root");
 
@@ -18,3 +19,4 @@ root.insertAdjacentHTML("beforeend", treeSum());
 root.insertAdjacentHTML("beforeend", arrayToString());
 root.insertAdjacentHTML("beforeend", colonOdd());
 root.insertAdjacentHTML("beforeend", chengeRegistor());
+root.insertAdjacentHTML("beforeend", removeDuplicates());
