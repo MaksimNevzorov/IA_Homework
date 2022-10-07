@@ -6,6 +6,10 @@ import { arrayToString } from "./components/ARRAYTOSTRING/arrayToString";
 import { colonOdd } from "./components/COLONODD/colonOdd";
 import { chengeRegistor } from "./components/CHANGRREGISTOR/changeRegistor";
 import { removeDuplicates } from "./components/REMOVEDUPLICATES/removeDuplicates";
+import { sumArray } from "./components/SUMARRAY/sumArray";
+import { countLbers } from "./components/COUNTLBERS/countLbers";
+import { compareNumbers } from "./components/COMPARENUMBERS/compareNumbers";
+import { compareValue } from "./components/COMPAREVALUE/compareValue";
 
 const root = document.querySelector("#root");
 
@@ -20,3 +24,7 @@ root.insertAdjacentHTML("beforeend", arrayToString());
 root.insertAdjacentHTML("beforeend", colonOdd());
 root.insertAdjacentHTML("beforeend", chengeRegistor());
 root.insertAdjacentHTML("beforeend", removeDuplicates());
+root.insertAdjacentHTML("beforeend", sumArray());
+root.insertAdjacentHTML("beforeend", countLbers());
+root.insertAdjacentHTML("beforeend", compareNumbers());
+root.insertAdjacentHTML("beforeend", compareValue());
